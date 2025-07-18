@@ -1,0 +1,6 @@
+name = "your-worker-name" # 这里填你项目名，不含空格或中文
+type = "javascript"
+
+account_id = "你的Cloudflare账户ID"  # 你可以先留空
+workers_dev = true
+compatibility_date = "2024-07-18"
