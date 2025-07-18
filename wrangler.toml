@@ -1,6 +1,6 @@
-name = "your-worker-name" # 这里填你项目名，不含空格或中文
+name = "agui-proxy"
 type = "javascript"
 
-account_id = "你的Cloudflare账户ID"  # 你可以先留空
+account_id = ""  # 可暂时留空，或前往 Cloudflare Dashboard 获取
 workers_dev = true
-compatibility_date = "2024-07-18"
+compatibility_date = "2025-07-18"
