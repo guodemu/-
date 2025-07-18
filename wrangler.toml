@@ -1,6 +1,8 @@
-name = "agui-proxy"
-type = "javascript"
+name = "agui-proxy-test01"
+main = "worker.js"  # 如果你的入口文件是 worker.js
+compatibility_date = "2024-07-18"
 
-account_id = ""  # 可暂时留空，或前往 Cloudflare Dashboard 获取
-workers_dev = true
-compatibility_date = "2025-07-18"
+# 可以删掉这项
+# type = "javascript"
+
+# 不要设置空的 account_id，直接删掉它
